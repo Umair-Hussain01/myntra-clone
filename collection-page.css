@@ -185,6 +185,7 @@
 .product-detail .rating{
     margin-top: 10px;
     border: 1px solid rgb(163,163, 163);
+    border-radius: 3px;
     display: inline-block;
     align-items: center;
     justify-content: center;
@@ -192,8 +193,9 @@
 
 }
 .product-detail .price{
-    margin-top: 10px;
+    margin-top: 15px;
     border-top: 1px solid rgb(163,163, 163);
+    padding-top: 20px;
 }
 .product-detail .current,.product-detail .original,.product-detail .percentage-off{
     font-size: 20px;
