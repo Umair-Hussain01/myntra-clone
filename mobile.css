@@ -1,0 +1,50 @@
+@media screen and (max-width: 540px) {
+    .view {
+        width: 400px;
+    }
+    nav{
+        display: none;
+    }
+    .search-bar{
+        background: none;
+    }
+    .search-bar input{
+        display: none;
+    }
+    .action-bar p {
+        display: none;
+    }
+    .search-bar span{
+
+        right: 0;
+    }
+    .search-bar span, .action-container span{
+        font-size: 40px;
+    }
+    .bag-item-count{
+        height: 30;
+        font-size: 8px;
+    }
+    .hero-banner{
+        overflow: hidden;
+    }
+    .hero-banner img{
+        width:660px;
+    }
+    .brand-section h2{
+        font-size: 22px;
+    }
+    .image-container img{
+        width: 100%;
+    }
+    .footer-col{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .col{
+        margin-top:20px ;
+    }
+}
