@@ -132,6 +132,7 @@
 .single-prodoct{
     /* border: 2px solid red; */
     padding: 30px;
+    position: relative;
 }
 .breadcrumbs{
     color: rgb(97, 96, 96);
@@ -152,7 +153,6 @@
     display: flex;
     flex-wrap: wrap;
     gap: 2%;
-    position: relative;
 }
 .product-images span{
     position: absolute;
@@ -165,8 +165,8 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    right: 2%;
-    top: 300px;
+    right: 47%;
+    top: 350px;
 }
 .product-images img{
     width: 49%;

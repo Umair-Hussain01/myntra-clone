@@ -103,6 +103,7 @@
     .single-prodoct{
         /* border: 2px solid red; */
         padding: 20px;
+        position: relative;
     }
 
     .product-info{
@@ -118,8 +119,8 @@
         width: 100%;
     }
     .product-images span{
-        right: 5%;
-        top: 300px;
+        right: 7%;
+        top: 37%;
     }
     .product-detail{
         padding-left: 0px;
@@ -129,8 +130,8 @@
     }
     .product-detail .rating{
         position: absolute;
-        top: 425px;
-        left: 5%;
+        left: 6%;
+        top: 37%;
         background: rgba(223, 223, 223, 0.402);
     
     }
