@@ -55,4 +55,45 @@
        font-size: 18px;
     
     }
+
+    /* ==================== Cart styling================= */
+    nav a{
+        display: none;
+    }
+    .cart-view{
+        width: 100%;
+        flex-direction: column;
+        margin-left: 0%;
+
+    }
+    .product-view-list{
+        width: 100%;
+        padding: 5px;
+    }
+    .item-selection input{
+        /* width: 20px; */
+        margin-right: 0;
+    }   
+    .item-selection div button{
+        border: none;
+        font-size: 8px;
+        color: rgb(92, 90, 90);
+        padding-right: 0px;
+    }
+    .item-selection div .first-child{
+        border-right: 0px solid rgb(193, 192, 192);
+        border-radius: 0px;
+        padding: 8px 12px;
+    
+    }
+    .item-selection div button:nth-child(2){
+        display: none;
+    }
+    .action-container img{
+        width: 30px;
+        margin-right: 20px;
+    }
+    .logo-container a img{
+        margin-left: 20px;
+    }
 }
