@@ -1,7 +1,7 @@
 @media screen and (max-width: 540px) {
-    .view {
+    /* .body {
         width: 400px;
-    }
+    } */
     nav{
         display: none;
     }
@@ -41,10 +41,18 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        /* align-items: center; */
 
     }
     .col{
         margin-top:20px ;
+    }
+    footer .footer-col h2{
+        font-size: 22px;
+        font-weight: 500;
+    }
+    footer .footer-col .links-container a{
+       font-size: 18px;
+    
     }
 }

@@ -21,7 +21,7 @@ header{
 }
 nav{
     width: 40%;
-    min-width: 200px;
+    /* min-width: 200px; */
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -50,7 +50,7 @@ nav a sup{
     background: #f1eeee;
     width: 30%;
     display: flex;
-    min-width: 200px;
+    /* min-width: 200px; */
     height: 40px;
     align-items: center;
     border-radius: 5px;
@@ -71,7 +71,7 @@ nav a sup{
 }
 .action-bar{
     display: flex;
-    min-width: 200px;
+    /* min-width: 200px; */
     justify-content: space-evenly;
 }
 .action-container{
