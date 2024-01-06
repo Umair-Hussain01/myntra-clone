@@ -5,6 +5,7 @@
     align-items: center;
     width: 90%;
     margin-left: 5%;
+    display: none;
 
 }
 .left-side-filter{
@@ -45,6 +46,7 @@
 .products{
     display: flex;
     flex-wrap: wrap;
+    display: none;
     
 }
 .cards{
@@ -78,10 +80,10 @@
 .cards .card-detail{
     padding-left: 22px;
 }
-.card-detail h3{
+.card-detail h3, .product-detail h2{
     font-size: 14px;
 }
-.card-detail h2{
+.card-detail h2, .product-detail h1{
     font-size: 12px;
     color: rgb(97, 96, 96);
     font-weight: 500;
@@ -108,7 +110,7 @@
     color: rgb(189, 65, 19);
     font-size: 12px;
 }
-.card-detail button{
+.card-detail button, .action-buttons button{
     width: 90%;
     margin: 5px 0px;
     padding: 4px;
@@ -124,4 +126,167 @@
 }
 .card-detail button:hover{
     scale: 110%;
+}
+
+/* ++++++++++++++++++++++++++++++  Single Product Styling  +++++++++++++++++++++++ */
+.single-prodoct{
+    /* border: 2px solid red; */
+    padding: 30px;
+}
+.breadcrumbs{
+    color: rgb(97, 96, 96);
+    font-size: 13px;
+}
+.breadcrumbs span{
+    color: black;
+    font-weight: 600;
+}
+.product-info{
+    display: flex;
+    margin-top: 20px;
+
+}
+.product-images{
+    width: 55%;
+    /* border: 2px solid yellow; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+    position: relative;
+}
+.product-images span{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    right: 2%;
+    top: 300px;
+}
+.product-images img{
+    width: 49%;
+}
+.product-detail{
+    flex: 1;
+    /* border: 2px solid green; */
+    padding-left: 30px;
+}
+.product-detail h2{
+    font-size: 22px;
+}
+.product-detail h1{
+    margin-top: 10px;
+    font-size: 18px;
+}
+.product-detail .rating{
+    margin-top: 10px;
+    border: 1px solid rgb(163,163, 163);
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 12px;
+
+}
+.product-detail .price{
+    margin-top: 10px;
+    border-top: 1px solid rgb(163,163, 163);
+}
+.product-detail .current,.product-detail .original,.product-detail .percentage-off{
+    font-size: 20px;
+
+}
+.product-detail>p{
+    margin-top: 10px;
+    color: #20BD99;
+    font-weight: 700;
+    font-size: 13px;
+}
+.size-heading{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.size-heading  h2{
+    font-size: 16px;
+}
+.size-heading h3{
+    font-size: 14px;
+    color: #FF3E6C;
+}
+.size-button div{
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(163,163, 163);
+    border-radius: 50%;
+}
+
+
+.action-buttons button{
+    width: 45%;
+    padding: 12px 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+.action-buttons button:nth-child(2){
+    border: 1px solid #FF3E6C;
+    color: #FF3E6C;
+    background: transparent;
+}
+.delivery-options{
+    border-top: 1px solid rgb(163,163, 163);
+    margin-top: 15px;
+    padding-top: 30px;
+
+}
+.delivery-options h2{
+    margin-bottom: 14px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: rgb(94, 91, 91);
+    /* justify-content: center; */
+}
+.delivery-options h2 span{
+    margin-left: 13px;
+}
+.check-pincode{
+    border: 1px solid rgb(163,163, 163);
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 18px;
+    border-radius: 5px;
+}
+.check-pincode input,button{
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.check-pincode button{
+    color: #FF3E6C;
+    font-size: 14px;
+    font-weight: 600;
+}
+.delivery-options p {
+    font-size: 12px;
+    margin: 6px 0;
+}
+.delivery-options ul{
+    margin-top: 22px;
+}
+.delivery-options ul li{
+    list-style: none;
+    font-size: 16px;
+    margin: 10px 0;
 }
