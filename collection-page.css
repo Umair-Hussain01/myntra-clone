@@ -2,10 +2,10 @@
     display: flex;
     justify-content: space-between;
     height: 80px;
-    align-items: center;
+    align-items: center;    
     width: 90%;
     margin-left: 5%;
-    display: none;
+    /* display: none; */
 
 }
 .left-side-filter{
@@ -46,7 +46,7 @@
 .products{
     display: flex;
     flex-wrap: wrap;
-    display: none;
+    /* display: none; */
     
 }
 .cards{
@@ -130,6 +130,7 @@
 
 /* ++++++++++++++++++++++++++++++  Single Product Styling  +++++++++++++++++++++++ */
 .single-prodoct{
+    display: none;
     /* border: 2px solid red; */
     padding: 30px;
     position: relative;
