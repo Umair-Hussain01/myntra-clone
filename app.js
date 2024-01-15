@@ -27,6 +27,7 @@ function displayBagIcon(){
 
 
 
+
 function displayContent(){
 let productsContainer = document.querySelector(".products");
 if (!productsContainer) {
@@ -37,7 +38,7 @@ let innerHtml = '';
 items.forEach(items => {
     
     innerHtml +=`
-            <div class="cards">
+            <div class="cards" onclick="displaySingleProduct(${items.id})" >
                 <div class="images">
                     <div class="rating"><p>${items.rating.stars} 🌟 | ${items.rating.count}</p></div>
                     <img src="${items.image}" alt="">

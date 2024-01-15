@@ -5,7 +5,6 @@
     box-sizing: border-box;
 }
 header{
-    position: static;
     display: flex;
     height: 80px;
     background: #ffffff;

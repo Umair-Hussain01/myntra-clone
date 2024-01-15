@@ -130,7 +130,7 @@
 
 /* ++++++++++++++++++++++++++++++  Single Product Styling  +++++++++++++++++++++++ */
 .single-prodoct{
-    display: none;
+    /* display: none; */
     /* border: 2px solid red; */
     padding: 30px;
     position: relative;
