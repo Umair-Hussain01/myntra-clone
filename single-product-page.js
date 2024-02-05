@@ -8,6 +8,7 @@ let singleProduct = document.querySelector('.single-prodoct')
 function displaySingleProduct(itemId){
     const desiredItem = items.find(item => item.id == itemId);
     console.log(desiredItem);
+    e.stopPropagation();
     filterBar.style.visibility = 'hidden';
     collectProduct.style.visibility = 'hidden';
     singleProduct.innerHTML = `

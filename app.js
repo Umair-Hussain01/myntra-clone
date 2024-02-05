@@ -10,6 +10,7 @@ function onload(){
 }
 
 function addToBag(itemId){
+    e.stopPropagation();
     bagValue.push(itemId);
     localStorage.setItem('bagItem',JSON.stringify(bagValue))
     displayBagIcon();
